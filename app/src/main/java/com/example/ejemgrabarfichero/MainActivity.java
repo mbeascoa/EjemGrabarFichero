@@ -28,15 +28,6 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    @Override
-    protected void onPause() {
-        super.onPause();
-
-        grabarFichero(view);
-
-    }
-
-
 
 
     public void leerFichero(View v)
